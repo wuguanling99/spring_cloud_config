@@ -16,6 +16,6 @@ eureka:
 server:
   port: 8081
 env:
-  dev
+  lkk
 lable:
   release
