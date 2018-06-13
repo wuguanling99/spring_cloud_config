@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://47.104.244.32:3306/spring_cloud_sell?autoReconnect=true&useSSL=false&characterEncoding=utf-8
+    username: root
+    password: plkj5270PLKJ
+  jpa:
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8081
+env:
+  dev
