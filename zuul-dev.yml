@@ -14,4 +14,4 @@ zuul:
   #  product: /myProduct/** 
   #  order: /myOrder/**
 env:
-  dev
+  test
