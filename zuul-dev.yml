@@ -9,4 +9,4 @@ spring:
 zuul:
   ignoredServices: '*'
 env:
-  test
+  dev
