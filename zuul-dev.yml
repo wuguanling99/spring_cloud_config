@@ -13,7 +13,7 @@ zuul:
       path: /myProduct/**
       service-id: product
       sensitiveHeaders: 
-     myOrder:
+    myOrder:
       path: /myOrder/**
       service-id: order
       sensitiveHeaders: 
