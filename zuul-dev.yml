@@ -1,11 +1,11 @@
+server:
+  port: 9000
 spring:
   rabbitmq:
     host: localhost
     port: 5672
     username: wgl
     password: 123456
-server:
-  port: 9000
 zuul:
   ignoredServices: '*'
   routes:
@@ -25,5 +25,3 @@ zuul:
   # 简洁写法 product服务被自定义路由到myProduct
   #  product: /myProduct/** 
   #  order: /myOrder/**
-env:
-  dev
