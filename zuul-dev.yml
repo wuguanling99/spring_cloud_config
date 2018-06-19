@@ -4,18 +4,12 @@ zuul:
   ignoredServices: '*'
   routes:
   #myProduct是规则的名字,只要不重复就好了
-    myProduct:
+  #  myProduct:
     #将myProduct的请求路由到product服务下 -- /myproduct/* --》 /product/*
-      path: /myProduct/**
-      service-id: product
+   #   path: /myProduct/**
+   #   service-id: product
       #设置敏感头为空，这样cookie可以传递过来
-      sensitiveHeaders: 
-   myOrder:
-    #将myProduct的请求路由到product服务下 -- /myproduct/* --》 /product/*
-      path: /myOrder/**
-      service-id: order
-      #设置敏感头为空，这样cookie可以传递过来
-      sensitiveHeaders: 
+    #  sensitiveHeaders: 
   # 简洁写法 product服务被自定义路由到myProduct
-#    product: /myProduct/** 
-#    order: /myOrder/**
+    product: /myProduct/** 
+    order: /myOrder/**
