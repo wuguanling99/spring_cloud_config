@@ -17,3 +17,5 @@ zuul:
       path: /myOrder/**
       service-id: order
       sensitiveHeaders: 
+env:
+  dev
