@@ -1,3 +1,9 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: wgl
+    password: 123456
 server:
   port: 9000
 zuul:
