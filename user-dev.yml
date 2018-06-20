@@ -1,14 +1,4 @@
 spring:
-  redis:
-    database: 0
-    host: 127.0.0.1
-    pool:
-      max-active: 100
-      max-idle: 8
-      max-wait: -1
-      min-idle: 0
-  port: 6379
-  timeout: 0
   rabbitmq:
     host: localhost
     port: 5672
@@ -24,3 +14,11 @@ spring:
     show-sql: true
 server:
   port: 8500
+spring.redis.database=0
+spring.redis.host=127.0.0.1
+spring.redis.port=6379
+spring.redis.pool.max-active=100
+spring.redis.pool.max-wait=-1
+spring.redis.pool.max-idle=8
+spring.redis.pool.min-idle=0
+spring.redis.timeout=0
